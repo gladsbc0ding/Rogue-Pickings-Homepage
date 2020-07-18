@@ -1,0 +1,137 @@
+/****BASE STYLES****/
+
+body {
+     font-family: 'Montserrat', sans-serif;
+     font-size: 16px;
+     color: black;
+}
+
+h1, h2, h3, h4, h5 {
+     text-transform: uppercase;
+}
+#menu, #reviews, #contact {
+     height: 210px;
+}
+
+@font-face {
+     font-family: Wisdom;
+     src: url('../fonts/wisdom.ttf') ;
+}
+
+/***** GRID *****/
+
+.full-width {
+     width: 1160px;
+     margin: 0 auto;
+}
+
+.half-width {
+     width: 580px;
+     float: left;
+}
+
+.third-width {
+     width: 386px;
+     float: left;
+}
+
+/***** HEADER *****/
+header {
+     height: 380px;
+}
+
+#rogue {
+     color: #77a466;
+}
+
+header img {
+     border-top: 4px solid #77a466;
+     border-bottom: 4px solid #77a466;
+}
+
+nav {
+     float: right;
+     padding-top: 20px;
+}
+
+nav ul li {
+     display: inline;
+}
+
+nav ul li a {
+     color: #77a466;
+     font-size: 14px;
+     font-weight:bold;
+     padding-left: 21px;
+     text-decoration: none;
+     text-transform: uppercase;
+}
+
+/****ABOUT****/
+
+#about div {
+     border-bottom: 2px solid #dedbdc;
+     padding: 0 0 20px 0;
+}
+#about h3 {
+     color: #77a466;
+}
+
+img {
+     width: 1160px;
+}
+
+/****BOTTOM****/
+#container {
+     border-top: 2px solid #dedbdc;
+     /**padding-top: 10px;**/
+}
+
+/****MENU****/
+
+#menu {
+     border-right: 2px solid #dedbdc;
+}
+#menu ul {
+     margin: 0;
+     padding: 0;
+}
+#menu ul li  {
+     list-style: none;
+}
+
+#menu ul li a {
+     color: #77a466;
+     text-decoration: none;
+}
+
+/****REVIEWS****/
+#reviews {
+     padding: 0 25px 0 30px;
+     display: inline;
+     width: 340px;
+}
+
+/****CONTACT****/
+#contact {
+     border-left: 2px solid #dedbdc;
+     padding-left: 30px;
+     display: inline;
+     width: 340px;
+     }
+
+
+/****FOOTER****/
+footer {
+     border-top: 2px solid #dedbdc;
+     clear:both;
+     padding-top: 10px;
+     text-align: center;
+}
+.fresh {
+     color: #77a466;
+     font-family: 'Wisdom';
+     font-size: 16px;
+     font-weight: lighter;
+     text-transform: lowercase;
+}
